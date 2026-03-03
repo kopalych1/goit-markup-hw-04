@@ -270,9 +270,7 @@ header.header {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.sausage-link:hover {
-  background-color: #404bbf;
-}
+.sausage-link:hover,
 .sausage-link:focus {
   background-color: #404bbf;
 }
@@ -371,7 +369,6 @@ footer > div.container > .logo-link {
 .footer-social-item {
   width: 40px;
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link {
   display: flex;
@@ -383,6 +380,7 @@ footer > div.container > .logo-link {
 
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-link:hover,
 .footer-social-link:focus {

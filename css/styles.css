@@ -103,7 +103,7 @@ header.header {
 .header-list-link:focus {
   color: #404bbf;
 }
-.header-list-link::after:nth-child(1) {
+.header-link-first::after {
   content: "";
   width: 100%;
   position: absolute;
